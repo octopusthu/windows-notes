@@ -2,11 +2,13 @@
 
 ## Back up files
 
+- %USERPROFILE%
 - %PROJECT_HOME%
 - %DEV_HOME%
 
 ## Back up app data and configurations
 
+- Windows Terminal
 - Git
   - `%USERPROFILE%\.gitconfig`
   - `%USERPROFILE%\.git-credentials`
@@ -16,6 +18,8 @@
   - Settings
   - Local Repository
 - WeChat
+- QQ
+  - `%USERPROFILE%\Documents\Tencent Files`
 
 - Games
   - Sniper Elite 5
@@ -26,8 +30,6 @@
     - `%USERPROFILE%\AppData\LocalLow\Ice Code Games\HardWest2`
 - Steam
 
-- Windows Terminal
-
 ## Back up system data and configurations
 
 - winget
@@ -37,6 +39,7 @@
 - Environment Variables
 - Microsoft Store
 - Windows Settings
+  - Managed by `Accounts > Windows backup`
 
 ## Just before reinstallation
 
@@ -73,7 +76,6 @@
   - set env `%PROJECT_HOME%`
 
 - Input methods
-  - [搜狗输入法](https://shurufa.sogou.com/)
 
 - [Visual Studio Code](https://code.visualstudio.com/download)
   - Sign in with GitHub Account and turn `Settings Sync` on
@@ -82,8 +84,9 @@
   - `%USERPROFILE%\.gitconfig`
   - `%USERPROFILE%\.git-credentials`
 
-- `winget install --id 7zip.7zip -e --source winget`
 - `winget install --name "Clash for Windows" -e --source winget`
+
+- `winget install --id 7zip.7zip -e --source winget`
 
 - Map NAS Drives Y:\ and Z:\
   - Disable Quota Management?
