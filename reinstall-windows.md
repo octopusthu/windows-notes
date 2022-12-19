@@ -70,6 +70,10 @@
   - NVIDIA GeForce Game Ready Driver (GRD)
   - `winget install --id Logitech.GHUB -e --source winget`
 
+- Uninstall packages by `winget uninstall`
+
+- `Google Chrome`
+
 - Display Calibration
 
 - Environment Variables
