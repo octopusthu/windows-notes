@@ -89,6 +89,7 @@
   - `%USERPROFILE%\.git-credentials`
 
 - `winget install --name "Clash for Windows" -e --source winget`
+  - `mklink %USERPROFILE%\.config\clash\config.yaml %PROJECT_HOME%\config\os-agnostic\HOME\.config\clash\config.yaml`
 
 - `winget install --id 7zip.7zip -e --source winget`
 
