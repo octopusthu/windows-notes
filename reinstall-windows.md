@@ -96,6 +96,9 @@
   - Disable Quota Management?
   - Disable indexing?
 
+- Dropbox
+- `winget install --id Seafile.Seafile -e --source winget`
+
 - Create Users
 
 ## Dev
@@ -112,6 +115,7 @@
 - Maven
   - `mklink %USERPROFILE%\.m2\settings.xml %PROJECT_HOME%\config\win\HOME\.m2\settings.xml`
   - set env `%PATH%=${MAVEN_HOME}\bin;%PATH%`
+  - restore Local Repository
 
 - Spring
   - set env `%SPRING_PROFILES_ACTIVE%=win`
