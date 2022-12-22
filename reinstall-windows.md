@@ -119,7 +119,7 @@
   - restore Local Repository
 
 - Spring
-  - set env `%SPRING_PROFILES_ACTIVE%=win`
+  - set env `%SPRING_PROFILES_ACTIVE%=win,local`
 
 - [Github Desktop](https://desktop.github.com/)
 - [Jetbrains Toolbox](https://www.jetbrains.com/toolbox-app/)
