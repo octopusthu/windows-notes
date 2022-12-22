@@ -137,8 +137,7 @@
 
 - [Adobe Acrobat Reader DC](https://get.adobe.com/reader/)
 
-- Install `WeChat For Windows` from Microsoft Store
-  - Configure `WeChat Files` location
+- [微信](https://pc.weixin.qq.com/)
 
 - Install `抖音` from Microsoft Store
 - QQ
