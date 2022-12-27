@@ -77,7 +77,7 @@
 - Display Calibration
 
 - Environment Variables
-  - set env `%PROJECT_HOME%`
+  - set env `%PROJECT_HOME%`, `%CLOUD_HOST_HOME%`
 
 - Input methods
 
@@ -114,7 +114,7 @@
   - set env `%PATH%=%JAVA_HOME%;%PATH%`
 
 - Maven
-  - `mklink %USERPROFILE%\.m2\settings.xml %PROJECT_HOME%\config\win\HOME\.m2\settings.xml`
+  - `mklink %USERPROFILE%\.m2\settings.xml %PROJECT_HOME%\config\os-agnostic\HOME\.m2\settings.xml`
   - set env `%PATH%=${MAVEN_HOME}\bin;%PATH%`
   - restore Local Repository
 
